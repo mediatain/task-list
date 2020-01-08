@@ -1,0 +1,9 @@
+export const backgroundColor = '#F5F5F6';
+export const textColorDark = '#000000';
+export const textColorLight = '#FFFFFF';
+export const headerColor = '#039be5';
+export const taskItemColor = '#fdd835';
+export const confirmColor = '#2b9949';
+export const cancelColor = '#EC5555';
+export const warningColor = '#ec5c54';
+export const disabledColor = '#a4a5a4';

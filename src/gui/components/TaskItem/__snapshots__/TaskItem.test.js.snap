@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskItem should match the snapshot for task {"description": "Aaand another task", "done": true, "id": "3"} 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 1.7rem;
+  padding-left: .1rem;
+  cursor: pointer;
+}
+
+.c2 {
+  position: relative;
+  border: .1rem solid;
+  border-radius: .25rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #a4a5a4;
+}
+
+.c3 {
+  position: absolute;
+  left: .3rem;
+  top: .5rem;
+  width: .2rem;
+  height: 1rem;
+  background: #a4a5a4;
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+  display: block;
+}
+
+.c3::after {
+  position: absolute;
+  left: 100%;
+  bottom: 0;
+  content: "";
+  background: inherit;
+  width: 2rem;
+  height: .2rem;
+}
+
+.c4 {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  list-style: none;
+  color: #000000;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+  color: #a4a5a4;
+}
+
+<div>
+  <li
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        />
+      </div>
+    </div>
+    <span
+      class="c4"
+    >
+      Aaand another task
+    </span>
+  </li>
+</div>
+`;
+
+exports[`TaskItem should match the snapshot for task {"description": "My first task", "done": true, "id": "1"} 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 1.7rem;
+  padding-left: .1rem;
+  cursor: pointer;
+}
+
+.c2 {
+  position: relative;
+  border: .1rem solid;
+  border-radius: .25rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #a4a5a4;
+}
+
+.c3 {
+  position: absolute;
+  left: .3rem;
+  top: .5rem;
+  width: .2rem;
+  height: 1rem;
+  background: #a4a5a4;
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+  display: block;
+}
+
+.c3::after {
+  position: absolute;
+  left: 100%;
+  bottom: 0;
+  content: "";
+  background: inherit;
+  width: 2rem;
+  height: .2rem;
+}
+
+.c4 {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  list-style: none;
+  color: #000000;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+  color: #a4a5a4;
+}
+
+<div>
+  <li
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        />
+      </div>
+    </div>
+    <span
+      class="c4"
+    >
+      My first task
+    </span>
+  </li>
+</div>
+`;
+
+exports[`TaskItem should match the snapshot for task {"description": "My second task", "done": false, "id": "2"} 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 1.7rem;
+  padding-left: .1rem;
+  cursor: pointer;
+}
+
+.c2 {
+  position: relative;
+  border: .1rem solid;
+  border-radius: .25rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #a4a5a4;
+}
+
+.c3 {
+  position: absolute;
+  left: .3rem;
+  top: .5rem;
+  width: .2rem;
+  height: 1rem;
+  background: #a4a5a4;
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+  display: none;
+}
+
+.c3::after {
+  position: absolute;
+  left: 100%;
+  bottom: 0;
+  content: "";
+  background: inherit;
+  width: 2rem;
+  height: .2rem;
+}
+
+.c4 {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  list-style: none;
+  color: #000000;
+}
+
+<div>
+  <li
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        />
+      </div>
+    </div>
+    <span
+      class="c4"
+    >
+      My second task
+    </span>
+  </li>
+</div>
+`;

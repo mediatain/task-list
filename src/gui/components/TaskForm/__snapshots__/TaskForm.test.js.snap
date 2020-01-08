@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskForm should match the snapshot 1`] = `
+.c1 {
+  background: #fdd835;
+  color: #000000;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: none;
+  elevation: above;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.20);
+  -webkit-transition-property: box-shadow,opacity;
+  transition-property: box-shadow,opacity;
+  -webkit-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+}
+
+.c1:hover {
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.20);
+}
+
+.c5 {
+  background: #fdd835;
+  color: #000000;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: none;
+  elevation: above;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.20);
+  -webkit-transition-property: box-shadow,opacity;
+  transition-property: box-shadow,opacity;
+  -webkit-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+  background: #EC5555;
+}
+
+.c5:hover {
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.20);
+}
+
+.c6 {
+  background: #fdd835;
+  color: #000000;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: none;
+  elevation: above;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.20);
+  -webkit-transition-property: box-shadow,opacity;
+  transition-property: box-shadow,opacity;
+  -webkit-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+  background: #2b9949;
+  margin-left: .5rem;
+}
+
+.c6:hover {
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.20);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: .7rem;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  outline: none;
+  color: #000000;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: none;
+  border-bottom: .2rem solid #a4a5a4;
+  width: 0;
+}
+
+.c3:focus {
+  border-bottom: .2rem solid #fdd835;
+}
+
+.c2 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 0;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition-property: width,opacity;
+  transition-property: width,opacity;
+  -webkit-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  max-width: 40rem;
+  margin: auto;
+  padding: 0;
+}
+
+@media (max-width:38rem) {
+  .c5 {
+    padding: .25rem 1rem;
+    font-size: 1rem;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+}
+
+@media (max-width:38rem) {
+  .c6 {
+    padding: .25rem 1rem;
+    font-size: 1rem;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin-left: 0;
+    margin-top: .5rem;
+  }
+}
+
+@media (max-width:38rem) {
+  .c4 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+  }
+}
+
+<div>
+  <form
+    class="c0"
+  >
+    <button
+      class="c1"
+      type="button"
+    >
+      New task
+    </button>
+    <div
+      class="c2"
+    >
+      <input
+        class="c3"
+        value=""
+      />
+      <div
+        class="c4"
+      >
+        <button
+          class="c5"
+          type="reset"
+        >
+          Cancel
+        </button>
+        <button
+          class="c6"
+          type="submit"
+        >
+          Save
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

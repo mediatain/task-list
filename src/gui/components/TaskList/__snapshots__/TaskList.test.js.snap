@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskList should match the snapshot for tasks [[Object], [Object], [Object]] 1`] = `
+.c0 {
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 0;
+}
+
+<div>
+  <ul
+    class="c0"
+  >
+    TaskItem
+    TaskItem
+    TaskItem
+  </ul>
+</div>
+`;
+
+exports[`TaskList should match the snapshot for tasks [[Object]] 1`] = `
+.c0 {
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 0;
+}
+
+<div>
+  <ul
+    class="c0"
+  >
+    TaskItem
+  </ul>
+</div>
+`;
+
+exports[`TaskList should match the snapshot for tasks [] 1`] = `
+.c1 {
+  position: relative;
+  font-size: 2rem;
+  color: #000000;
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+
+.c1::before {
+  position: absolute;
+  left: 1rem;
+  top: -.5rem;
+  content: "⤶";
+  font-size: 200%;
+  font-weight: 200;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.c0 {
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 0;
+}
+
+<div>
+  <ul
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      Add your first task!
+    </div>
+  </ul>
+</div>
+`;
